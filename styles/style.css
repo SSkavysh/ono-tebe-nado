@@ -43,6 +43,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 92px;
 }
 
 .header__links-list {
@@ -83,7 +84,6 @@
   margin-bottom: 4px;    
   width: 148px;
   height: 105px;
-
 }
 
 .header__logo-image {
@@ -123,7 +123,7 @@
 }
 
 .cover__description {
-  margin-top: 147px;
+  margin-top: 135px;
   padding-left: 372px;
   display: flex;
   justify-content: space-between;
@@ -142,7 +142,11 @@
 }
 
 .aligned-text {
-  display: block;
+  display: block;  
+}
+
+.aligned-text_paddings {
+  padding: 20px 0;
 }
 
 .aligned-text_center {
@@ -159,8 +163,7 @@
   display: flex;
   width: 257px;
   height: 52px;
-  border: 1px solid #FFF;  
-     
+  border: 1px solid #FFF;       
 }
 
 .bet-button:hover {
@@ -331,6 +334,7 @@
   display: flex;
   justify-content: space-between;  
   align-items: flex-start;
+  padding-bottom: 90px;
 }
 
 .footer__menu-list {
